@@ -1,0 +1,43 @@
+/* Removes default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+}
+
+.intro{
+    height: 100vh; /* Size of the screen */
+}
+
+/* Make the video the size of the screen */
+.intro video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Stretches the video til it fits the screen */
+}
+
+.intro h1{
+    position: absolute; /* Allow object to overlap */
+    transform: translateX(1vw);
+
+    text-shadow: 5px 5px #0000001e;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+section{
+    height: 100vh;
+    color: black;
+}
+
+/* Center the Text */
+section h1{
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 80px;
+}
